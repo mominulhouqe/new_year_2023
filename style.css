@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Roboto Slab', serif;
+}
+/* header style start here */
+header{
+    background-image: url('../image/banner/banner1.png');
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: right;
+    margin-bottom: 20px;
+   
+}
+.banner-head{
+    width: 400px;
+    margin-right: 230px;
+    align-items: left;
+    text-align: right;
+  
+   
+}
+.banner-title{
+    font-weight: bolder;
+    font-size: 55px;
+    margin-bottom: 20px;
+  
+}
+.primary-desc{
+    font-size: 12px;
+    color: rgb(71, 73, 75);
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Roboto Slab', serif;
+    line-height: 22px;
+    word-spacing: 2px;
+    letter-spacing: 1.1px;
+    margin-bottom: 20px;
+    
+}
+/* .btn-desc{
+    background-color:teal;
+    color: white;
+    padding:15px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 21px;
+
+} */
+/* header style end here */
+
+/* previous section start here */
+.previous-img{
+    margin: 0 auto;
+}
+.previous-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.privious-title{
+    margin: 0 auto;
+   
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+i{
+    color: teal;
+    font-size: 17px;
+}
+.previous-title{
+    margin-bottom: 20px;
+    font-size: 55px;
+    text-transform: capitalize;
+}
+/* previous section end here */
+
+/* my plan section style start here */
+.my-plan-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 80px;
+}
+.myPlans-content{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  
+}
+.items{
+    margin-left: 40px;
+    padding: 20px;
+}
+.development-desc{
+    font-size: 19px;
+    color:  rgb(109, 111, 112);
+}
+
+/* my plan section style end here */
+
+/* gradiant style start here */
+.gradiant-container{
+    background-image:linear-gradient(rgb(231, 65, 65),rgba(201, 62, 62, 0.2)),  url('../image/gradient1.png' );
+ 
+    background-blend-mode: darken, luminosity;
+   height: 30vh;
+    background-repeat: no-repeat;
+    width: 70%;
+   margin: 0 auto;
+   margin-bottom: 50px;
+   color: white;
+   border-radius: 15px;
+   text-transform: capitalize;
+
+}
+
+.gradiant-title {
+    font-size: 30px;
+    position: absolute;
+   margin-top: 30px;
+   margin-left: 100px;
+}
+.call{
+    margin-left: 100px;
+    margin-top: 120px;
+}
+/* gradiant style end here */
+
+/* footer section style */
+
+.footer-container{
+    background-color: black;
+   padding: 90px;
+   color: white;
+
+
+}
+.footer-content{
+    display: flex;
+    margin-right: 350px;
+}
+.footer-title{
+    margin: 0 auto;
+   
+}
+.footer-desc{
+    color: white;
+    width: 411px;
+}
+
+.contact{
+    margin-bottom: 70px;
+}
+.images-footer{
+    margin-top: 20px;
+}
+.footer-text{
+    margin-bottom: 14px;
+    font-size: 45px;
+}
+.submit-btn h3{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+input{
+    padding: 15px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+/* about section here */
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+}
+.about-container{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+.about-text h2{
+    color: rgb(19, 8, 8);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+
+}
+.about-text h5{
+    color: rgb(5, 5, 5);
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: rgba(8, 8, 8, 0.8);
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-bottom: 45px;
+
+}
+button{
+    color: rgb(255, 238, 238);
+    background-color: #f9004d;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid ;
+    padding: 13px 30px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    
+}
+button:hover{
+    background-color: black;
+    border: 2px solid #131212;
+    cursor: pointer;
+    color: white;
+}
+.subscribe:hover{
+    background-color: white;
+    color: black;
+}
