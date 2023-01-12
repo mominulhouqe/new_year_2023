@@ -8,16 +8,15 @@
     font-family: 'Roboto Slab', serif;
 }
 /* header style start here */
-header{
+.header{
 
     background-image: url(banner1.png);
-    width: 100%;
-    height: 100vh;
     display: flex;
-    text-align: right;
+    margin-bottom: 5px;
     align-items: right;
     justify-content: right;
-    margin-bottom: 20px;
+     width: 100%;
+     height: 100vh;
    
 } 
 
@@ -27,12 +26,10 @@ header{
     align-items: left;
     text-align: right;
     margin-top: 100px;
-    
+    width: 500px;
     padding: 20px;
     justify-content: right;
-    width: 500px;
-  
-  
+    
    
 }
 .banner-title{
@@ -51,7 +48,7 @@ header{
     line-height: 22px;
     word-spacing: 2px;
     letter-spacing: 1.1px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     
 }
 /* .btn-desc{
@@ -85,9 +82,9 @@ i{
     color: teal;
     font-size: 17px;
 }
-.previous-title{
-    margin-bottom: 20px;
-    font-size: 55px;
+.previous-titles{
+    margin-bottom: 10px;
+    font-size: 30px;
     text-transform: capitalize;
 }
 /* previous section end here */
